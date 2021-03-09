@@ -1,6 +1,5 @@
 <h1>Curso Desenvolvimento Web Completo</h1>
 
-"Versão" do repositório: v2021.03.09.12.37
 
 <a href="https://www.udemy.com/course/curso-web/">Link para o curso</a>
 
