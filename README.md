@@ -1,6 +1,5 @@
 <h1>Curso Desenvolvimento Web Completo</h1>
-
--- Versão inicial: 2021.03.09.11.40
+v2021.03.09.11.40
 
 <a href="https://www.udemy.com/course/curso-web/">Link para o curso</a>
 
