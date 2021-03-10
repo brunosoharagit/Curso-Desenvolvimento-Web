@@ -16,3 +16,6 @@ console.log(0.1 + 0.7) //retorna 0.79999...
 
 //chamadas literais
 console.log((10.3499999).toFixed(2))
+
+// "somar" strings com números
+console.log('3' + 2) // retorna 32
