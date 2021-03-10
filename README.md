@@ -14,4 +14,4 @@
 </ol>
 
 
-<h2>This seccion is empty... </h2>
+<h2>This section is empty... </h2>
