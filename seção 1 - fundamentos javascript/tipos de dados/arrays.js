@@ -7,8 +7,14 @@ console.log(numeros[0] + ' - ' + numeros[2] + ' - ' + numeros[10])
 
 console.log("Quantidade: " + numeros.length)
 
+console.log('\n')
+
 const listaProdutos = ['Headset Corsair', 'Monitor AOC 24 polegadas 144hz', 'Teclado Razer', 'Mouse Razer Kraken', 'CPU']
 
 console.log("Antes: " + listaProdutos)
 listaProdutos.push('Suporte headset')
 console.log("Depois: " + listaProdutos)
+
+for (item in listaProdutos){
+    console.log("Item: " + listaProdutos[item])
+}
