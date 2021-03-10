@@ -17,4 +17,3 @@ const c = 50000
 //c = 5000
 
 console.log(c)
-console.log(alturaBruno)
