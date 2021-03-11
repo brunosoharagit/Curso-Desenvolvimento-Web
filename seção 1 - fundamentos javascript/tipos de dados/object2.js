@@ -16,3 +16,5 @@ const computador = {
         memoria: 'Corsair Vengeance RGB PRO 32GB',
     }
 }
+
+console.log(computador)
