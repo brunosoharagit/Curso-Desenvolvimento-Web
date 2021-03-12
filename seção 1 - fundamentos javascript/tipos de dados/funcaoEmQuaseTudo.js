@@ -3,3 +3,6 @@ function concatenarNomeESobrenome(nome, sobrenome){
 }
 
 concatenarNomeESobrenome("Bruno", "Sohara")
+
+const randNumber = Math.floor(Math.random() * (10 - 1)) + 1
+
