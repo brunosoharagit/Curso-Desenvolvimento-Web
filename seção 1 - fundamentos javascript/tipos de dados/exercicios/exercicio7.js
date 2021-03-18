@@ -29,5 +29,5 @@ function bhaskara(a, b, c){
     }
 }
 
-console.log(expressao(3, -5, 1))
+console.log(expressao(3, 5, 1))
 bhaskara(3, 5, 1)
