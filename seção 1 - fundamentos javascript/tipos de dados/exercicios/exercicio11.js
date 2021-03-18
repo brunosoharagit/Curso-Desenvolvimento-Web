@@ -1,15 +1,21 @@
-function anoBissexto(ano){
-    if (ano % 4 === 0){
-        return true
-    }
-    else if (ano % 400 === 0){
-        return true
-    }
-    else if (ano % 100 === 0){
-        return false
-    }
-    else{
-        return false
-    }
-}
+function fatorial(valor) {
+    // para valores negativos
+    if(valor<0) {
 
+      return 'Valor deve ser maior ou igual a zero';
+    
+      // para valor = 0  ou igual a 1
+    } else if ( (valor == 0) || (valor == 1) ) {
+
+      return 1;
+     
+    } else {
+
+      var acumula = 1;
+      for(x=valor;x>1;x--) {
+        acumula = acumula * x;
+      }
+      return acumula;
+    } 
+
+}
