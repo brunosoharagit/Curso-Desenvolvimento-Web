@@ -1,21 +1,18 @@
-function fatorial(valor) {
-    // para valores negativos
-    if(valor<0) {
+function fatorial(numero){
+    if (numero < 0){
+        return `Número inválido!!`
+    }
+    else if (numero == 0 || numero == 1){
+        return 1
+    }
+    else {
+        var count = 1
+        for (var x=numero; x>1; x--){
+            count = count * x;
+        }
 
-      return 'Valor deve ser maior ou igual a zero';
-    
-      // para valor = 0  ou igual a 1
-    } else if ( (valor == 0) || (valor == 1) ) {
-
-      return 1;
-     
-    } else {
-
-      var acumula = 1;
-      for(x=valor;x>1;x--) {
-        acumula = acumula * x;
-      }
-      return acumula;
-    } 
-
+        return count;
+    }
 }
+
+console.log(fatorial(5))
