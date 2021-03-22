@@ -15,3 +15,8 @@ console.log('10)', date1.getTime() === date2.getTime())
 console.log('11)', date1.getTime() == date2.getTime())
 console.log('12)', undefined == null)
 console.log('13)', undefined === null)
+
+/*
+ em via de dúvida, sempre utilizar o símbolo '===' (números estritamente iguais...) => para não confundir valores iguais, independente do tipo de dado.
+
+/
