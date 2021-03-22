@@ -17,10 +17,10 @@ function bhaskara(a, b, c){
         var x2 = ((-b) - Math.sqrt(d))/(2*a)
         console.log('Delta positivo.')
 
-        console.log(x1.toFixed(2), x2.toFixed(2))
+        console.log(Math.ceil(x1), Math.ceil(x2))
 
-        solucao.push(x1.toFixed(2))
-        solucao.push(x2.toFixed(2))
+        solucao.push(Math.ceil(x1))
+        solucao.push(Math.ceil(x2))
 
         console.log(`soluções da equação = {${solucao}}`)
     }
@@ -29,5 +29,5 @@ function bhaskara(a, b, c){
     }
 }
 
-console.log(expressao(3, 5, 1))
-bhaskara(3, 5, 1)
+console.log(expressao(3, -5, 12))
+bhaskara(3, -5, 12)
