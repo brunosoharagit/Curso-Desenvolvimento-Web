@@ -19,4 +19,4 @@ console.log('13)', undefined === null)
 /*
  em via de dúvida, sempre utilizar o símbolo '===' (números estritamente iguais...) => para não confundir valores iguais, independente do tipo de dado.
 
-/
+*/
