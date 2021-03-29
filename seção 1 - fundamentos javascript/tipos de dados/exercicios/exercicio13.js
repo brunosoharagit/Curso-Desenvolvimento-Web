@@ -3,9 +3,6 @@ function diasDaSemana(dia){
         case 1:
             return 'final de semana'
 
-        case 7:
-            return 'final de semana'
-
         case 2:
             return 'dia útil'
 
@@ -20,6 +17,9 @@ function diasDaSemana(dia){
 
         case 6:
             return 'dia útil'
+
+        case 7:
+            return 'final de semana'
 
         default:
             return 'dia inválido'
