@@ -7,4 +7,4 @@ const anoBissexto = function(ano){
     }
 }
 
-console.log(anoBissexto(2000))
+console.log(anoBissexto(2002))
