@@ -10,3 +10,7 @@ const notebook = {
 
 const { processador, placaGrafica } = notebook
 console.log(processador)
+
+const {acessorios: { teclado, mousepad} } = notebook
+
+console.log(teclado)
