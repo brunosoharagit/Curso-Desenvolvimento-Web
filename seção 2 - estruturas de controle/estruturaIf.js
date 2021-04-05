@@ -1,11 +1,8 @@
+//Estrutura IF
 function soNotaBoa(nota){
-    if (nota >= 7){
-        return `Nota > ${nota}. \nAprovado!!`
-    } 
-    else {
-        return `Nota > ${nota}. \nReprovado!!`
-    }
+    if (nota >= 7)
+        return `Nota = ${nota} \nAprovado!!`
 }
 
-console.log(soNotaBoa(6));
-console.log(soNotaBoa(7.1));
+console.log(7.1)
+console.log(6.9)
