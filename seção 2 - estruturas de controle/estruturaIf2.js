@@ -1,12 +1,7 @@
 //Estrutura IF/ELSE
 function verificaAvaliacao(nota){
-    if (nota >= 7){
-        return `Aprovado!!`
-    }
-
-    else {
-        return `Reprovado!!`
-    }
+    if (nota >= 7)
+        console.log('só notão')
 }
 
 
