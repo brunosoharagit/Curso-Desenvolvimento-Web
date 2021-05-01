@@ -8,6 +8,7 @@ function area(altura, largura){
     }
 }
 
+//Alguns exemplos de retorno
 console.log(area(3, 3))
 console.log(area(3))
 console.log(area())
