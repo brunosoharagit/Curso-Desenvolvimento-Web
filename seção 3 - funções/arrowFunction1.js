@@ -17,6 +17,9 @@ console.log(ola());
 
 let numeros = [1, 2, 3, 4, 5]
 
-let triploMais100= numeros.map(item => item * 3 + 100)
+let triploMais100 = numeros.map(item => item * 3 + 100)
 console.log(triploMais100);
+
+let quadruploMais400 = numeros.map(item => item * 4 + 400)
+console.log(quadruploMais400);
 
