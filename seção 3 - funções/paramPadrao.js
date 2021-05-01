@@ -31,4 +31,4 @@ function inseriuNome(nickname){
     return nickname
 }
 
-console.log(inseriuNome(), inseriuNome('Yotyan'), inseriuNome('Adder V'));
+console.log(inseriuNome(), inseriuNome('Yotyan'), inseriuNome('Veloxbreno'));
